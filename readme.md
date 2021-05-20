@@ -7,7 +7,7 @@ The communication is achieve through a USB VPC (Virtual Port Com)
 
 ## Compiler & IDE
 
-This project has been developp with [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Version: 1.2.0)
+This project has been developed with [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Version: 1.2.0)
 
 This IDE includes everything that is required to compile & debug the project on the µC.
 
@@ -16,16 +16,16 @@ This IDE includes everything that is required to compile & debug the project on 
 
 The project configuration (clock, gpio, spi, usb, ...) has been done with STM32CubeMX. 
 
-If you re-generate the project with STM32CubeMX, some files and project define will be overwritten. These files has been lightly modified and these modifications needs to be re-apply.Git discard is good tools find them and cancel the modification.
+If you re-generate the project with STM32CubeMX, some files and the project defines will be overwritten. These files have been lightly modified and these modifications need to be re-applied. Git discard is a good tool to find them and cancel the modifications.
 
 Search for the the tag  **@CUSTOM_SEMTECH** and re-apply them 
 
-The project define **#DEBUG** will be add in the release. Please remove it. 
+The project define **#DEBUG** will be added in the release. Please remove it. 
 
 
 ## Boot mode
 
-This project can force the µC in boot mode (USB DFU boot mode). If modification to the source code is made, it is critical to check that the new firmware still allow the use of the boot command.
+This project can force the µC in boot mode (USB DFU boot mode). If modifications to the source code are made, then it is critical to check that the new firmware still allows the use of the boot command.
 
 ## Licenses
 
