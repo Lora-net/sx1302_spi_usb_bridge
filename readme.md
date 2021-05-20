@@ -1,8 +1,8 @@
 # Corecell USB STM
 
-Corecell USB STM is the project that manage communication between a host, generally a linux host, and the radio front end (SX1302/SX1303 & SX1261).
+Corecell USB STM is a project that manages communication between a host, generally a linux host, and the radio front end (SX1302/SX1303 & SX1261).
 The µC is mainly a SPI-USB bridge.
-The communication is achieve through a USB VPC (Virtual Port Com)
+The communication is achieved through a USB VCP (Virtual Com Port)
 
 
 ## Compiler & IDE
