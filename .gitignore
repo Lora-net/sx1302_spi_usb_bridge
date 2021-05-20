@@ -1,0 +1,6 @@
+﻿.vscode
+*.clang-format
+Debug
+*.launch
+Release
+.settings
